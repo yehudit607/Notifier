@@ -30,7 +30,7 @@ def notify_webinar(entity_obj, original_entity_obj):
 
 def notify_content_item(entity_obj, original_entity_obj):
     return get_crawling_status(entity_obj, original_entity_obj) or get_is_blacklisted(entity_obj,
-                                                                                              original_entity_obj)
+                                  original_entity_obj)
 
 
 def notify_company_for_event(entity_obj, original_entity_obj):
