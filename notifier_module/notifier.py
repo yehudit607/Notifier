@@ -1,5 +1,4 @@
-from NotifierService.notiifer_service import *
-from api.models import *
+from notifier_module.service import *
 from django.dispatch import receiver
 from api.signals import notify_signal
 from notifier_module.helpers.constants import ActionType
